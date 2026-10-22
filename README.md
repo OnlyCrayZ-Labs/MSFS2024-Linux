@@ -124,11 +124,13 @@ No FPS measurements, completed end-to-end flight, multiplayer session or Marketp
 
 ## Roadmap
 
-1. Reproducible clean source build and installation documentation.
-2. Stability/performance measurements and less intrusive diagnostics.
-3. Longer flights and settings/save persistence across normal restart.
-4. Xbox Live and Marketplace compatibility.
-5. Fenix A320, Navigraph, BeyondATC and other aircraft, including iniBuilds.
+1. Stability and reproducible installation.
+2. Basic Linux launcher.
+3. Basic add-on compatibility.
+4. Fenix A320, Navigraph, BeyondATC and other third-party add-ons.
+5. Full launcher with automatic updates and add-on management.
+
+These are development goals. Third-party add-ons have not been validated.
 
 ## Contributing and governance
 
