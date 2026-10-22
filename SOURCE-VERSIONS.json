@@ -1,0 +1,46 @@
+{
+  "milestone": "MSFS 2024 Linux – Experimental First Playable Milestone",
+  "observed_test": {
+    "edition": "Microsoft Store / Xbox PC",
+    "distribution": "CachyOS Linux",
+    "gpu": "NVIDIA RTX 5090",
+    "aircraft": "standard MSFS 2024 aircraft (model not recorded here)",
+    "evidence": "user report of successful flight; applies to preserved private runtime"
+  },
+  "public_candidates": {
+    "xgameruntime": {
+      "commit": "92f0acdcd9082b6d66603dc1919f65bc1d8138c1",
+      "status": "Experimental source candidate",
+      "clean_build_validated": false,
+      "gameplay_validated": false,
+      "branch": "main"
+    },
+    "wine": {
+      "commit": "46b092c5c56d7870660b1e050455c32d41fe241f",
+      "status": "Experimental source candidate",
+      "clean_build_validated": false,
+      "gameplay_validated": false,
+      "branch": "main"
+    },
+    "xodus": {
+      "commit": "3683550358759cc4c08059ee90ee8b6f21b0453c",
+      "status": "Experimental source candidate",
+      "clean_build_validated": false,
+      "gameplay_validated": false,
+      "branch": "main"
+    },
+    "xodus-proton": {
+      "commit": "93b43dc94d51d2d285a9e731c73ff1c8a26c955f",
+      "status": "Experimental source integration manifest",
+      "clean_build_validated": false,
+      "gameplay_validated": false,
+      "branch": "main"
+    }
+  },
+  "limitations": [
+    "Fenix A320, Navigraph and BeyondATC not tested",
+    "Clean checkout installation not validated",
+    "Xbox cloud synchronization not implemented",
+    "No binary release"
+  ]
+}

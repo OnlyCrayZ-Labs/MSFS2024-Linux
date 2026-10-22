@@ -1,0 +1,29 @@
+# The public hub contains documentation and reviewed images only.
+.env
+.env.*
+*.pem
+*.pfx
+*.p12
+*.key
+*.dll
+*.exe
+*.msixvc
+*.xvc
+*.har
+*.pcap
+*.pcapng
+*.jsonl
+__pycache__/
+/build/
+/prefix/
+/prefixes/
+/backups/
+/captures/
+/cache/
+
+# Local publication analysis and recovery artifacts are never public assets.
+/private-audit/
+/publication-prep/
+*.bundle
+AUDIT-REPORT.md
+CANDIDATE-MANIFEST.json
